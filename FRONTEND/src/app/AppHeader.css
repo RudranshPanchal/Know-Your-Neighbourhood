@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+.app-header {
+    height: 60px;
+    position: relative;
+    z-index: 10;
+    background-image: linear-gradient(2deg, #171717, #ab8989);
+    
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover{
+    color: rgb(0, 238, 255);
+}
+
+.app-title {
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.50em;
+    color: #f6a90f;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+:hover.app-title{
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #451406;
+}
+.app-branding {
+    float: left;
+}
+
+.app-options {
+    float: right;
+}
+
+.app-nav ul {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app-nav ul li a {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(0, 238, 255);
+    text-shadow: 2px 2px 8px #000000;
+    text-decoration: none;
+}
+
+.app-nav ul li a:hover {
+    color: #f67b0f;
+}
+
+.app-nav ul li a.active {
+    color: #f6a90f;
+}
